@@ -1,0 +1,126 @@
+/* start footer */
+.footer {
+  background-color: white;
+  padding-top: 30px;
+  // padding-bottom: 30px;
+  overflow: hidden;
+  margin-top: 50px;
+  .gallery,
+  .info,
+  .contact {
+    float: $float-left;
+  }
+  .gallery {
+    @media #{$minSmall} {
+      width: 100%;
+    }
+    @media #{$minMedium} {
+      width: 50%;
+    }
+    .img-box {
+      overflow: hidden;
+      margin-bottom: 20px;
+      img {
+        @media #{$minSmall} {
+          float: $float-left;
+        }
+        width: 150px;
+        height: 150px;
+      }
+      .text {
+        @media #{$minSmall} {
+          float: $float-left;
+          width: calc(100% - 180px);
+          margin-right: 15px;
+          margin-left: 15px;
+        }
+
+        h4 {
+          color: $redColor;
+          margin: 20px 0 0;
+        }
+        p {
+          color: $greyColor;
+          line-height: 1.8;
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+  .info {
+    @media #{$minSmall} {
+      width: 50%;
+    }
+    @media #{$minMedium} {
+      width: 25%;
+    }
+    width: 25%;
+    ul {
+      color: #888;
+      line-height: 1.8;
+      li {
+        span {
+          color: $redColor;
+        }
+      }
+    }
+    h4 {
+      color: #888;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    p {
+      margin-top: 8px;
+      color: #888;
+    }
+  }
+  .contact {
+    @media #{$minSmall} {
+      width: 50%;
+    }
+    @media #{$minMedium} {
+      width: 25%;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      padding: 10px;
+      border: 1px solid #a3a3a3;
+      margin-bottom: 5px;
+      border-radius: 10px;
+      width: 100%;
+      background-color: #dbdbdb;
+    }
+  }
+  .section-title {
+    color: #777;
+    font-weight: bold;
+  }
+  .copyright {
+    margin-top: 20px;
+    padding: 25px 0;
+    border-top: 1px solid #a3a3a3;
+    overflow: hidden;
+    color: #888;
+
+    @media #{$maxMobile} {
+      .text,
+      .author {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+    }
+    @media #{$minSmall} {
+      .text,
+      .author {
+        float: $float-left;
+        width: 50%;
+      }
+      .author {
+        text-align: $text-right;
+      }
+    }
+  }
+}
+/* end footer */

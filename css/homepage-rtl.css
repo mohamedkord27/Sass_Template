@@ -1,0 +1,78 @@
+/* start header */
+@media (min-width:992px) {
+  .header .logo {
+    float: right;
+    text-align: right;
+  }
+}
+@media (min-width:992px) {
+  .header .navbar {
+    float: right;
+  }
+}
+.header .navbar li {
+  float: right;
+}
+@media (max-width:767px) {
+  .header .navbar li {
+    text-align: right;
+  }
+}
+
+/* end header */
+/* start slider */
+/* end slider */
+/* start services */
+@media (min-width:992px) {
+  .services .service-box {
+    float: right;
+  }
+}
+
+/* end services */
+/* start our player */
+@media (min-width:768px) {
+  .our-players .player-box {
+    float: right;
+  }
+}
+@media (min-width:992px) {
+  .our-players .player-box {
+    text-align: right;
+  }
+}
+
+/* end our player */
+/* start our loream */
+.our-loream .loream-box {
+  float: right;
+}
+
+/* end our loream */
+/* start footer */
+.footer .gallery,
+.footer .info,
+.footer .contact {
+  float: right;
+}
+@media (min-width:768px) {
+  .footer .gallery .img-box img {
+    float: right;
+  }
+}
+@media (min-width:768px) {
+  .footer .gallery .img-box .text {
+    float: right;
+  }
+}
+@media (min-width:768px) {
+  .footer .copyright .text,
+  .footer .copyright .author {
+    float: right;
+  }
+  .footer .copyright .author {
+    text-align: left;
+  }
+}
+
+/* end footer *//*# sourceMappingURL=homepage-rtl.css.map */
